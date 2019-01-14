@@ -1,4 +1,4 @@
-FROM java:8
+FROM openjdk:8-jdk-alpine
 WORKDIR /
 ADD HelloWorld.jar HelloWorld.jar
 EXPOSE 8051

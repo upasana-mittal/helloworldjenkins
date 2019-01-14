@@ -1,0 +1,14 @@
+server:
+  port: 8051
+
+spring:
+  application:
+    name: GoloApp
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
